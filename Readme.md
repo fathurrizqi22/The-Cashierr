@@ -15,6 +15,11 @@ public double getSubTotal()
             Subtotal = price * quantity;
             return Subtotal;
         }
+
+public double getTotal()
+        {
+            return total;
+        }
 ```
 
 
@@ -52,4 +57,13 @@ public string getTitle()
 ```
 dengan membuat terlebih dahulu variabel yang menyimpan `state` kemudian membuat `method` 
 masing-masing dari setiap variabel yang telah dibuat.
+
+Untuk menambahkan item maka digunakan method dibawah ini dengan menambahkan item kemudian dijumlahkan total nya dan kemudian menjadi subtotal.
+```csharp
+public void addItem(item item)
+        {
+            this.listItem.Add(item);
+            this.total += item.getSubTotal();
+        }
+```
 
