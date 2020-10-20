@@ -50,6 +50,6 @@ public string getTitle()
             return Subtotal;
         }
 ```
-dengan membuat terlebih dahulu variabel yang menyimpan `state` kemudian membuat `method` masing-masing dari setiap variabel yang telah dibuat.
+dengan membuat terlebih dahulu variabel yang menyimpan `state` kemudian membuat `method` 
+masing-masing dari setiap variabel yang telah dibuat.
 
-## ok
